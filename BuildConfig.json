@@ -1,7 +1,7 @@
 {
   "apiCode": {
-    "main": {"ios": "Fbi6nZQPsfoD_uca3UWl3Q", "android": "Fbi6nZQPsfoD_uca3UWl3Q"},
-    "test": {"ios": "Fbi6nZQPsfoD_uca3UWl3Q", "android": "Fbi6nZQPsfoD_uca3UWl3Q"}
+    "main": {"ios": "gUj-g0WBOyLZtZCekbLbMg", "android": "gUj-g0WBOyLZtZCekbLbMg"},
+    "test": {"ios": "gUj-g0WBOyLZtZCekbLbMg", "android": "gUj-g0WBOyLZtZCekbLbMg"}
   },
   "endpoint": {
     "main": "https://vault.fidubit.global/v1/mw/",
