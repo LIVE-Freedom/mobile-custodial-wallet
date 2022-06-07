@@ -499,7 +499,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
             marginBottom: 40,
             flex: 1,
             justifyContent: 'center',
-            alignItems: 'center',
+            alignItems: 'center'
           }}
           onPress={() =>
             setResult({
@@ -508,12 +508,13 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
               message: I18n.t('sign_out_confirm_message'),
               successButtonText: I18n.t('sign_out_up'),
               secondaryConfig: {
-                color: theme.colors.primary,
+                color: theme.colors.errorInfo,
                 text: I18n.t('cancel'),
                 onClick: () => {
                   setResult(null);
                 },
               },
+              
               buttonClick: () => {
                 setTimeout(() => {
                   dispatch(signOut(true));

@@ -97,7 +97,7 @@ const SignInScreen: () => React$Node = ({ theme }) => {
       <Animated.View
         style={{
           flexDirection: 'column',
-          justifyContent: 'flex-end',
+          justifyContent: 'center',
           alignItems: 'center',
           flex: 1,
           paddingHorizontal: 16,
@@ -150,7 +150,7 @@ const SignInScreen: () => React$Node = ({ theme }) => {
           }}>
           {I18n.t('sign_in_btn_google')}
         </RoundButton2>
-        <RoundButton2
+        {/* <RoundButton2
           height={ROUND_BUTTON_HEIGHT}
           style={[styles.roundButton, { backgroundColor: 'rgb(0,195,0)' }]}
           disabled={loading}
@@ -203,7 +203,7 @@ const SignInScreen: () => React$Node = ({ theme }) => {
             dispatch(signIn('Twitter'));
           }}>
           {I18n.t('sign_in_btn_twitter')}
-        </RoundButton2>
+        </RoundButton2> */}
         <View
           style={{
             width: width,

@@ -154,10 +154,10 @@ export const endColors = {
 
 export const Theme = {
   colors: {
-    primary: '#f7b603',
-    primaryDisabled: 'rgba(201,154,24,0.4)',
-    primary16: 'rgba(201,154,24,0.16)',
-    background: '#132666',
+    primary: '#FFFF',
+    primaryDisabled: 'rgba(255,255,255, 0.35)',
+    primary16: 'rgba(255,255,255, 0.2)',
+    background: '#3c2266',
     backgroundPressed: 'rgba(255,255,255,0.04)',
     filterBgColor: 'rgba(255,255,255,0.08)',
     divider: 'rgba(255,255,255,0.1)',
