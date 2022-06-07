@@ -183,7 +183,7 @@ const SignInScreen: () => React$Node = ({ theme }) => {
           labelStyle={[{ color: theme.colors.text, fontSize: 14 }]}
           onPress={() => dispatch(signIn('Facebook'))}>
           {I18n.t('sign_in_btn_facebook')}
-        </RoundButton2>
+        </RoundButton2> 
         <RoundButton2
           height={ROUND_BUTTON_HEIGHT}
           style={[styles.roundButton, { backgroundColor: '#1da1f2' }]}
