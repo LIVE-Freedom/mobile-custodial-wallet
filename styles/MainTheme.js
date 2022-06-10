@@ -154,7 +154,7 @@ export const endColors = {
 
 export const Theme = {
   colors: {
-    primary: '#FFFF',
+    primary: '#1bcba5',
     primaryDisabled: 'rgba(255,255,255, 0.35)',
     primary16: 'rgba(255,255,255, 0.2)',
     background: '#3c2266',
